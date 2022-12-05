@@ -1,4 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 #btn {
+    width: 100%;
     color: hsl(0, 0%, 100%);
     border-radius: 5px;
     background: hsl(158, 36%, 37%);
