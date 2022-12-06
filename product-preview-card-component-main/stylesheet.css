@@ -2,16 +2,44 @@
     box-sizing: border-box;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-}
-main {
-    display: grid;
     background: hsl(30, 38%, 92%);
 }
+P {
+    color: hsl(228, 12%, 48%);
+}
 article {
-    background: hsl(0, 0%, 100%);
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.prod-desc {
+    padding: 20px;
+}
+#prod-h {
+    letter-spacing: 5px;
+}
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 27px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#price1 {
+    color: hsl(158, 36%, 37%);
+    font-weight: bolder;
+    font-size: 35px;
+} 
+#price2 {
+    text-decoration: line-through;
 }
 #btn {
-    width: 100%;
     color: hsl(0, 0%, 100%);
     border-radius: 5px;
     background: hsl(158, 36%, 37%);

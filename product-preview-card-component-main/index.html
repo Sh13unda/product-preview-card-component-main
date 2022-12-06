@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
   <link rel="stylesheet" href="stylesheet.css">
+
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Fraunces">
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -16,38 +19,30 @@
 </head>
 <body>
 
-  <main>
-
-    <article>
-      <picture>
-        <source media="(min-width: 650px)" srcset="images/image-product-mobile.jpg" alt="Perfume Image">
-        <img src="images/image-product-desktop.jpg" alt="Perfume Image">
-      </picture>
+  <article>
+    <img src="images/image-product-desktop.jpg" alt="Perfume Image">
+    <div class="prod-desc">
+      <p id="prod-h">PERFUME</p>
   
-       <div>
-            <p>Perfume</p>
-      
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-      
-          <p>
-              A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-              Perfumer-Creator for the House of CHANEL.
-          </p>
-      
-          <div>
-              <p>$149.99</p>
-              <p>$169.99</p>
-          </div>
-      
-          <button id="btn">
-              <img src="images/icon-cart.svg" 
-                    alt="Shopping icon cart" aria-hidden="true">
-              </img>Add to Cart
-          </button>
-       </div>
-    </article>
-
-  </main>  
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+  
+      <p>
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+  
+      <div class="price">
+        <p id="price1">$149.99</p>
+        <p id="price2"><span>$169.99</span></p>
+      </div>
+  
+      <button id="btn">
+        <img src="images/icon-cart.svg" 
+              alt="Shopping icon cart" aria-hidden="true">
+        </img>Add to Cart
+      </button>
+    </div>
+  </article> 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
