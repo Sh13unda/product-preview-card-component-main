@@ -1,5 +1,14 @@
 * {
     box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    display: grid;
+    background: hsl(30, 38%, 92%);
+}
+article {
+    background: hsl(0, 0%, 100%);
 }
 #btn {
     width: 100%;
